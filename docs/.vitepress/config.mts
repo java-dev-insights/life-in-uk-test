@@ -6,7 +6,6 @@ const IS_GITHUB_ACTIONS = process.env.GITHUB_ACTIONS === 'true';
 
 const defaultTopNav = [
       { text: 'Home', link: '/' },
-      { text: 'Setup', link: '/setup' },
       { text: 'Examples', link: '/markdown-examples' },
       { text: 'Utils', items: [
                           { text: 'Images', link: '/utils/images' },
