@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "template-vitepress"
-  text: "template-vitepress"
-  tagline: My great project tagline
+  name: "Study for"
+  text: "life-in-uk-test"
+  tagline: Mandatory for UK ILR and Citizenship
   image:
     alt: Hero Image
     # src: /images/background.png

@@ -2,7 +2,7 @@
 
 There is a script which should be used to run this app locally and also to deploy on github pages.
 
-1. replace `template-vitepress` with `new_repo_name` in all files.
+1. replace `life-in-uk-test` with `new_repo_name` in all files.
 2. use `nvm` to manage node version - install this locally from [here](https://github.com/nvm-sh/nvm#install--update-script){target="_blank"}.
 3. `./scripts/localhost.sh install` to install all dependencies.
 4. `./scripts/localhost.sh start` to run locally.
