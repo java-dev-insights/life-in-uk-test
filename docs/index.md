@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Study for"
-  text: "life-in-uk-test"
+  text: "life in uk test"
   tagline: Mandatory for UK ILR and Citizenship
   image:
     alt: Hero Image
