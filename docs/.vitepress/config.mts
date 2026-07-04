@@ -6,25 +6,33 @@ const IS_GITHUB_ACTIONS = process.env.GITHUB_ACTIONS === 'true';
 
 const defaultTopNav = [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
-      { text: 'Utils', items: [
-                          { text: 'Images', link: '/utils/images' },
-                          { text: 'Youtube', link: '/utils/youtube' },
-                          { text: 'Mermaid', link: '/utils/mermaid' },
-                          { text: 'Maths', link: '/utils/maths' },
-                        ]
-      },
+      { text: 'Chapters', link: '/chapters'},
+      { text: 'Book Test', link: 'https://www.gov.uk/life-in-the-uk-test' },
     ];
 
 const sidebarDefault = [
+      { text: 'Overview', link: '/chapters/' },
+      {
+        collapsed: false,
+        text: 'Chapters',
+        items: [
+          { text: 'Chapter 1', link: '/chapters/1-' },
+          { text: 'Chapter 2', link: '/chapters/2-' },
+          { text: 'Chapter 3', link: '/chapters/3-' },
+          { text: 'Chapter 4', link: '/chapters/4-' },
+          { text: 'Chapter 5', link: '/chapters/5-' },
+        ]
+      },
       {
         collapsed: true,
-        text: 'Examples',
+        text: 'Test References',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Reference 1', link: 'https://lifeintheuktestweb.co.uk/tests/' },
+          { text: 'Reference 2', link: 'https://britizen.uk/practice/life-in-the-uk-test' },
+          { text: 'Chapter 3', link: '/chapters/3-' },
+          { text: 'Chapter 4', link: '/chapters/4-' },
         ]
-      }
+      },
     ];
 
 const sidebarUtils = [
